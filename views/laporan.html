@@ -1,0 +1,38 @@
+    <!-- ===== HALAMAN LAPORAN ===== -->
+    <div class="halaman" id="laporan">
+
+        <div class="kartu tiga">
+            <div><span>🏆</span><b id="totalLatihan">0</b><br><small>Latihan</small></div>
+            <div><span>⏱️</span><b id="totalMenit">0</b><br><small>Menit</small></div>
+        </div>
+
+        <div class="baris">
+            <h3>Riwayat</h3>
+            <a href="#" class="link" onclick="lihatSemua()">Semua catatan</a>
+        </div>
+
+        <div class="kartu">
+            <div class="tanggal" id="tanggalRiwayat"></div>
+            <hr class="garis">
+            <div class="dua">
+                <div>Hari Beruntun<br><span class="angka-besar">🔥 <span id="beruntun">0</span></span></div>
+                <div style="text-align:right">Terbaik Personal<br><span class="angka-besar"><span id="terbaik">0</span> hari</span></div>
+            </div>
+        </div>
+
+        <div class="baris">
+            <h3>Berat Badan</h3>
+            <a href="#" class="link" onclick="catatBerat()">Catat</a>
+        </div>
+
+        <div class="kartu">
+            <div class="dua">
+                <div>Saat ini<br><span class="angka-besar"><span id="beratNow">0</span> kg</span></div>
+                <div style="text-align:right">Terberat <b id="beratMax">0</b><br>Teringan <b id="beratMin">0</b></div>
+            </div>
+            <canvas id="grafik" width="320" height="140"></canvas>
+        </div>
+
+        <!-- daftar semua catatan (disembunyikan dulu) -->
+        <div class="kartu" id="semuaCatatan" style="display:none"></div>
+    </div>

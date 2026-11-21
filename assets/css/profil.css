@@ -1,0 +1,66 @@
+/* profil.css = tampilan halaman PROFIL */
+/* halaman profil */
+.profil {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 15px;
+}
+
+.foto {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: #d4189e;
+    text-align: center;
+    line-height: 60px;
+    font-size: 30px;
+}
+
+.tab {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 15px;
+}
+
+.tab button {
+    background: none;
+    border: none;
+    color: #cccccc;
+    font-size: 15px;
+    cursor: pointer;
+    padding-bottom: 4px;
+}
+
+.tab .tab-aktif {
+    color: white;
+    border-bottom: 3px solid #a47bf0;
+}
+
+.streak {
+    display: flex;
+    justify-content: space-between;
+}
+
+.api {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.titik {
+    display: grid;
+    grid-template-columns: repeat(7, 14px);
+    gap: 4px;
+    margin-top: 8px;
+}
+
+.titik i {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: #dddddd;
+}
+
+.titik .isi {
+    background: #c0209a;
+}

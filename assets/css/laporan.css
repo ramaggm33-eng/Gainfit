@@ -1,0 +1,49 @@
+/* laporan.css = tampilan halaman LAPORAN
+   (.item dan .catatan-item dipakai di tab Aktivitas halaman Profil) */
+.tiga {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.tiga span {
+    font-size: 26px;
+    display: block;
+}
+
+.dua {
+    display: flex;
+    justify-content: space-between;
+    font-size: 13px;
+}
+
+.angka-besar {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.garis {
+    border: 0;
+    border-top: 1px solid white;
+    margin: 12px 0;
+}
+
+canvas {
+    width: 100%;
+}
+
+.catatan-item {
+    font-size: 12px;
+    opacity: 0.85;
+    padding: 0 0 6px 0;
+    border-bottom: 1px solid white;
+    word-break: break-word;
+}
+
+.item {
+    display: flex;
+    justify-content: space-between;
+    padding: 6px 0;
+    border-bottom: 1px solid white;
+    font-size: 13px;
+}

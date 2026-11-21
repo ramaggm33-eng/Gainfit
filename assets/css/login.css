@@ -1,0 +1,39 @@
+/* login.css = layar masuk (login / daftar / reset password) */
+/* layar masuk (login / daftar / reset password) */
+#masuk {
+    z-index: 100;
+    background: linear-gradient(#2a1650, #5b2f9a);
+}
+
+#masuk .popup {
+    background: none;
+    max-height: 100%;
+    overflow-y: auto;
+}
+
+#masuk .popup select {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0 10px 0;
+    border: none;
+    border-radius: 8px;
+}
+
+#masuk .tombol.lebar {
+    width: 100%;
+    margin-bottom: 12px;
+}
+
+#masuk .link {
+    color: #ffd6f0;
+    text-decoration: underline;
+    display: block;
+    margin-bottom: 6px;
+    font-size: 13px;
+}
+
+.pesan {
+    color: #ffd6f0;
+    font-size: 13px;
+    margin: 8px 0;
+}

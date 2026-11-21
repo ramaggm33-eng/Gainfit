@@ -1,0 +1,38 @@
+    <!-- ===== HALAMAN PROFIL ===== -->
+    <div class="halaman" id="profil">
+        <div class="profil">
+            <div class="foto">👤</div>
+            <div>
+                <h2 id="nama">Isi nama kamu</h2>
+                <p><span id="jumlahAktivitas">0</span> Aktivitas</p>
+            </div>
+        </div>
+
+        <div class="dua-tombol">
+            <button class="tombol" onclick="editProfil()">Edit Profil</button>
+            <button class="tombol" onclick="bagikanProfil()">Bagikan Profil</button>
+        </div>
+        <div class="dua-tombol">
+            <button class="tombol" onclick="keluar()">Keluar</button>
+        </div>
+
+        <div class="tab">
+            <button class="tab-aktif" id="tombolKemajuan" onclick="pindahTab('kemajuan')">📅<br>Kemajuan</button>
+            <button id="tombolAktivitas" onclick="pindahTab('aktivitas')">〰️<br>Aktivitas</button>
+        </div>
+
+        <!-- tab kemajuan -->
+        <div class="kartu streak" id="tabKemajuan">
+            <div>
+                <h2>Streak</h2>
+                <div class="api">🔥 <span id="streak">0</span></div>
+            </div>
+            <div>
+                <h2>Bulan ini</h2>
+                <div class="titik" id="titikBulan"></div>
+            </div>
+        </div>
+
+        <!-- tab aktivitas -->
+        <div class="kartu" id="tabAktivitas" style="display:none"></div>
+    </div>

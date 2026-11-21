@@ -1,0 +1,29 @@
+/* beranda.css = tampilan halaman BERANDA (deretan tanggal dipakai di halaman Laporan) */
+/* deretan tanggal */
+.tanggal {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.tanggal div {
+    width: 32px;
+    text-align: center;
+}
+
+.hariini {
+    background: #c0209a;
+    border-radius: 50%;
+}
+
+.sudah {
+    color: #ff7ad9;
+    font-weight: bold;
+}
+#beranda .gambar img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 8px;
+    mix-blend-mode: screen;
+}

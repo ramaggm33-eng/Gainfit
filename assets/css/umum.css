@@ -1,0 +1,110 @@
+/* umum.css = gaya dasar yang dipakai SEMUA halaman */
+/* hapus jarak bawaan browser */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #f4f4f4;
+    display: flex;
+    justify-content: center;
+}
+
+/* kotak utama aplikasi (ukuran seperti HP) */
+.app {
+    width: 100%;
+    max-width: 450px;
+    min-height: 100vh;
+    background: linear-gradient(#2a1650, #5b2f9a);
+    color: white;
+    padding-bottom: 80px;
+}
+
+/* semua halaman disembunyikan dulu */
+.halaman {
+    display: none;
+    padding: 20px 15px;
+}
+
+/* halaman yang aktif ditampilkan */
+.aktif-halaman {
+    display: block;
+}
+
+/* bagian atas */
+.atas {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.cari {
+    width: 100%;
+    padding: 8px;
+    border-radius: 10px;
+    border: none;
+    margin-bottom: 15px;
+}
+
+.baris {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.link {
+    color: #d400ff;
+    text-decoration: none;
+}
+
+/* kotak pilihan olahraga */
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+    margin-bottom: 20px;
+}
+
+.kotak {
+    background: #1c1038;
+    border: 1px solid #3b2a66;
+    color: white;
+    font-weight: bold;
+    padding: 20px 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.kotak .gambar {
+    display: block;
+    font-size: 40px;
+    margin-bottom: 8px;
+}
+
+/* kartu warna ungu muda */
+.kartu {
+    background: linear-gradient(135deg, #7a4fcf, #a47bf0);
+    border-radius: 18px;
+    padding: 15px;
+    margin-bottom: 18px;
+}
+
+.dua-tombol {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.tombol {
+    flex: 1;
+    background: #8e5ee0;
+    border: none;
+    color: white;
+    padding: 9px;
+    border-radius: 15px;
+    cursor: pointer;
+}

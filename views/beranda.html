@@ -1,0 +1,32 @@
+    <!-- ===== HALAMAN BERANDA ===== -->
+    <div class="halaman aktif-halaman" id="beranda">
+        <div class="atas">
+            <h2>GAINFIT</h2>
+            <span>🔥 💬</span>
+        </div>
+
+        <input class="cari" type="text" id="cari1" placeholder="Cari latihan....." onkeyup="cariLatihan('cari1','beranda')">
+
+        <div class="baris">
+            <b>Target Mingguan</b>
+            <!-- klik untuk mengubah target -->
+            <span id="target" onclick="ubahTarget()" style="cursor:pointer">0/0</span>
+        </div>
+        <div class="tanggal" id="tanggalBeranda"></div>
+
+        <h3 style="margin-bottom:10px">Jenis Olahraga</h3>
+        <div class="grid">
+            <button class="kotak" data-jenis="GYM" onclick="bukaPopup('GYM')">
+                <span class="gambar"><img src="assets/icon/beranda/GYM.jpeg"></span>GYM
+            </button>
+            <button class="kotak" data-jenis="YOGA" onclick="bukaPopup('YOGA')">
+                <span class="gambar"><img src="assets/icon/beranda/YOGA.jpeg"></span>YOGA
+            </button>
+            <button class="kotak" data-jenis="SENAM" onclick="bukaPopup('SENAM')">
+                <span class="gambar"><img src="assets/icon/beranda/SENAM.jpeg"></span>SENAM
+            </button>
+            <button class="kotak" data-jenis="CALISTHENICS" onclick="bukaPopup('CALISTHENICS')">
+                <span class="gambar"><img src="assets/icon/beranda/CALISTHENICS.jpeg"></span>CALISTHENICS
+            </button>
+        </div>
+    </div>

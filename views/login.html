@@ -1,0 +1,54 @@
+<!-- ===== LAYAR MASUK (login / daftar / reset password) ===== -->
+<div class="latar" id="masuk" style="display:none">
+    <div class="popup">
+        <h3 id="judulMasuk">Masuk GAINFIT</h3>
+        <div class="pesan" id="pesanMasuk"></div>
+
+        <!-- form login -->
+        <div id="formLogin">
+            Gmail
+            <input type="email" id="loginEmail" placeholder="namamu@gmail.com" autocomplete="email">
+            Password
+            <input type="password" id="loginPassword" autocomplete="current-password">
+            <button class="tombol lebar" onclick="proseLogin()">Masuk</button>
+            <button class="tombol lebar" onclick="tampilForm('daftar')">Daftar akun baru</button>
+            <a href="#" class="link" onclick="tampilForm('reset')">Lupa password?</a>
+        </div>
+
+        <!-- form daftar -->
+        <div id="formDaftar" style="display:none">
+            Gmail
+            <input type="email" id="daftarEmail" placeholder="namamu@gmail.com" autocomplete="email">
+            Username (nama tampilan, boleh sama dengan orang lain)
+            <input type="text" id="daftarUsername" autocomplete="nickname">
+            Password (min. 8 karakter)
+            <input type="password" id="daftarPassword" autocomplete="new-password">
+            Pertanyaan keamanan (untuk reset password)
+            <select id="daftarPertanyaan">
+                <option>Siapa nama hewan peliharaan mu?</option>
+                <option>Di kota mana kamu lahir?</option>
+                <option>Siapa nama sahabat masa kecilmu?</option>
+                <option>Apa makanan favoritmu?</option>
+                <option>Nama Pacar</option>
+            </select>
+            Jawaban
+            <input type="text" id="daftarJawaban" autocomplete="off">
+            <button class="tombol lebar" onclick="prosesDaftar()">Daftar</button>
+            <a href="#" class="link" onclick="tampilForm('login')">Sudah punya akun? Masuk</a>
+        </div>
+
+        <!-- form reset password -->
+        <div id="formReset" style="display:none">
+            Gmail
+            <input type="email" id="resetEmail" placeholder="namamu@gmail.com" autocomplete="email">
+            <div id="langkahReset" style="display:none">
+                <b id="resetPertanyaan"></b>
+                <input type="text" id="resetJawaban" placeholder="Jawaban kamu" autocomplete="off">
+                Password baru (min. 8 karakter)
+                <input type="password" id="resetPasswordBaru" autocomplete="new-password">
+            </div>
+            <button class="tombol lebar" id="tombolReset" onclick="prosesReset()">Lanjut</button>
+            <a href="#" class="link" onclick="tampilForm('login')">Kembali ke login</a>
+        </div>
+    </div>
+</div>

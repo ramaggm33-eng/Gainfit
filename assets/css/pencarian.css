@@ -1,0 +1,31 @@
+/* pencarian.css = tampilan halaman PENCARIAN
+   (kotak olahraga .grid dan .kotak ada di umum.css) */
+.besar {
+    font-size: 22px;
+    font-weight: normal;
+    padding: 35px 5px;
+}
+
+/* tombol tutorial YouTube */
+.tutorial {
+    display: block;
+    background: #1c1038;
+    border: 1px solid #3b2a66;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+    text-align: center;
+    text-decoration: none;
+    padding: 16px 5px;
+}
+
+.tutorial .putar {
+    color: #ff4d4d;
+}
+#pencarian .gambar img {
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+    border-radius: 8px;
+    mix-blend-mode: screen;
+}
