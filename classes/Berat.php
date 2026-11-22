@@ -1,6 +1,6 @@
 <?php
-// Berat.php = class untuk catatan berat badan
-// (tabel: berat)
+// Berat.php class untuk catatan berat badan
+// tabel berat
 
 class Berat
 {

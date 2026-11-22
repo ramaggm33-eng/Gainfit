@@ -1,6 +1,6 @@
 // tampilkan.js = menampilkan data ke layar (Beranda, Laporan, dan Profil)
 
-// ---------- menampilkan data ke layar ----------
+//menampilkan data ke layar
 function tampilkan() {
     var hariIni = new Date();
 

@@ -1,6 +1,5 @@
-// menu.js = pindah halaman lewat menu bawah
-
-// ---------- pindah halaman ----------
+//menu di bagian bawah
+//Buat pindah halaman
 function pindahHalaman(nama) {
     var semua = ["beranda", "pencarian", "laporan", "profil"];
 

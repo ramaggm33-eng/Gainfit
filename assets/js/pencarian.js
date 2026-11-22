@@ -1,9 +1,5 @@
-// pencarian.js = fungsi halaman PENCARIAN
-// (cariLatihan juga dipakai di halaman Beranda)
-
-// ---------- fitur lainnya ----------
-
-// menyaring kotak olahraga sesuai tulisan di kolom cari
+//fitur pencarian
+//menyaring kotak olahraga sesuai tulisan di kolom cari
 function cariLatihan(idInput, idHalaman) {
     var kata = document.getElementById(idInput).value.toUpperCase();
     var kotak = document.getElementById(idHalaman).getElementsByClassName("kotak");

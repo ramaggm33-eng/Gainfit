@@ -1,6 +1,4 @@
-// profil.js = fungsi halaman PROFIL: pindah tab, edit profil (tombol Keluar ada di login.js)
-
-// pindah tab di halaman profil
+//Bagian halaman profil
 function pindahTab(nama) {
     if (nama == "kemajuan") {
         document.getElementById("tabKemajuan").style.display = "flex";

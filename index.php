@@ -5,8 +5,6 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>GAINFIT</title>
 
-<!-- CSS: semua tampilan ada di file assets/style.css -->
-<link rel="stylesheet" href="assets/style.css">
 </head>
 <!-- CSS: tampilan dipisah per halaman di folder assets/css/ -->
 <link rel="stylesheet" href="assets/css/umum.css">

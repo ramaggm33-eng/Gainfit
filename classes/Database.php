@@ -1,5 +1,5 @@
 <?php
-// Database.php = class untuk menyambung ke database MySQL
+// Database.php class untuk menyambung ke database MySQL
 // Kalau username / password MySQL kamu beda, ubah di sini saja
 class Database
 {

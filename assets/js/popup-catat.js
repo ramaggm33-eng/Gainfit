@@ -1,9 +1,7 @@
-// popup-catat.js = pop-up catat olahraga
-
 // olahraga yang sedang dipilih
 var jenisPilihan = "";
 
-// ---------- pop-up catat olahraga ----------
+//pop-up catat olahraga
 function bukaPopup(jenis) {
     jenisPilihan = jenis;
     document.getElementById("judulPopup").innerHTML = "Catat " + jenis;

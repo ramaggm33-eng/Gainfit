@@ -1,5 +1,5 @@
 <?php
-// GainfitController.php = "otak" aplikasi
+// GainfitController.php  otak nya aplikasi yang nyambungin 
 // Menerima perintah (aksi) dari JavaScript, lalu menyuruh
 // class Pengguna / Aktivitas / Berat bekerja.
 // Login disimpan di session PHP ($_SESSION["id_pengguna"]).

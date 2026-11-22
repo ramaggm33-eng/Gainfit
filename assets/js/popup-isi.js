@@ -1,6 +1,5 @@
-// popup-isi.js = pop-up isian (target / berat badan / nama)
-
-// ---------- pop-up isian (pengganti prompt, supaya keyboard HP bisa tertutup) ----------
+//popup-isi.js pop-up isian (target / berat badan / nama)
+//pop-up isian pengganti prompt, supaya keyboard HP bisa tertutup
 
 // yang sedang diisi: "target", "berat", atau "nama"
 var jenisIsi = "";
